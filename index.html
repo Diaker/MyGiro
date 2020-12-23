@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
 	<title>My-giro</title>
 </head>
 <body>
@@ -40,7 +41,24 @@
 		</div>
 	</header>
 	<section class="main-slaider">
-		<img src="img/fon.png" alt="fon">
+<div class="slider">
+    <div class="slider__wrapper">
+      <div class="slider__items">
+        <div class="slider__item">
+          <img class="img-fluid" src="img/fon4.jpg" alt="c1">
+        </div>
+        <div class="slider__item">
+          <img class="img-fluid" src="img/fon2.jpg" alt="c2">
+        </div>
+        <div class="slider__item">
+          <img class="img-fluid" src="img/fon3.jpg" alt="c3">
+        </div>
+      </div>
+    </div>
+    <a class="slider__control slider__control_prev" href="#" role="button"></a>
+    <a class="slider__control slider__control_next" href="#" role="button"></a>
+  </div>
+
 			<h2>Наши преимущества</h2>
 	</section>
 	<section class="main">
@@ -71,7 +89,10 @@
 		</p>
 	</section>
 	<section class="Ras">
-		
+		<p>Подпишитесь на нашу рассылку <br>и оставайтесь в курсе событий</p>
+		<input type="text" placeholder="          Имя">
+		<input type="text" placeholder="          Email">
+		<a href="#" class="button-ras">Подписаться</a>
 	</section>
 	<section class="main-info2">
 		<h2>Особенности гидростутеров</h2>
@@ -162,10 +183,7 @@
 			<div class="img-text">
 				<img src="img/i4.png" alt="">
 				<span><h4>Советы по выбору<br>гироскутера для ребенка</h4></span>
-			</div>
-			
-			
-			
+			</div>		
 		</div>
 	</section>
 	<footer class="footer">
@@ -195,5 +213,6 @@
 			</ul>
 		</div>
 	</footer>
+	<script src="js/js.js"></script>
 </body>
 </html>
